@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>情報科学演習Ⅱ-成果報告</title>
+<link href = "header.css" rel = "stylesheet" type = "text/css">
+<link href = "css/Progress_report.css" rel = "stylesheet" type = "text/css">
+<script src= "https://storage.googleapis.com/vrview/2.0/build/vrview.min.js"></script>
+<script>
+	window.addEventListener('load', onVrViewLoad)
+	function onVrViewLoad() {
+		var vrView = new VRView.Player('#vrview', {
+   			width: '35%',
+			height: 250,
+			image: './img/vrview.jpg',
+			is_stereo: false
+		});
+	}
+</script>
+</head>
+
+<body>
+	<header>
+		<p><a href = "index.html">情報科学演習Ⅱ</a></p>
+		<ul id = "menu">
+			<li><a href = "index.html"><p>Home</p></a></li>
+			<li><a href = "index.html#Introduction"><p>はじめに</p></a></li>
+			<li><a href = "index.html#Progress_report"><p>成果報告</p></a></li>
+			<li><a href = "index.html#Presentation_materials"><p>発表資料</p></a></li>
+			<li><a href = "index.html#References"><p>参考文献</p></a></li>
+		</ul>
+	</header>
+	<div id = "title">
+		<h1>第１回成果報告</h1>
+	</div>
+	<div class = "center">
+		<div id = "content">
+			<div id = "t_content">
+				<h2 class = "left_title">制作内容</h2>
+				<p>GoogleStreetViewのようなスマホ専用のVRの作成</p>
+				<p>Googleが開発したGoogleStreetViewのVR機能のようなプログラムをゲームエンジンであるUnityを用いスマートフォン向けVRとして開発を行った。今回制作する上で導入した機能は、ヘッドジェスチャーでMenuを呼び出すことまた、視線を利用したボタンクリックである。この2つを利用し制作を行った。</p>
+			</div>
+			<div id = "vrview"></div>
+		</div>
+	</div>
+	<div id = "environment">
+		<div class = "center">
+			<h2 class = "center_title">環境</h2>
+			<div id = "e_img">
+				<ul>
+				<li><img src = "img/Googlevr.jpg" alt = ""><div><h2>GoogleVR</h2><p>iPhone/Androidまたは、DayDream専用のVRを作成する</p><p>ツール</p></div></li>
+				<li><img src = "img/unity.jpg" alt = ""><div><h2>Unity</h2><p>統合開発環境を内蔵し、複数のプラットホームに対応する</p><p>ゲームエンジン</p></div></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+<!--
+	<div id = "control">
+		<div class = "center">
+			<h2 id class = "left_title">操作</h2>
+		</div>
+			<div id = "control_contents">
+			<div class = "L_control">
+				<div class = "center">
+					<div class = "L_border"><h2>1.初期画面</h2></div>
+					<div><p>あああ</p></div>
+					<div><img src = "img/control_1.png" alt = ""></div>
+				</div>
+			</div>
+			<div class = "R_control">
+				<div class = "center">
+					<div class = "R_border center"><h2>2.</h2></div>
+				</div>
+			</div>
+			<div class = "L_control">
+				<div class = "center">
+					<div class = "L_border"><h2>3.</h2></div>
+				</div>
+			</div>
+			<div class = "R_control">
+				<div class = "center">
+					<div class = "R_border"><h2>4.</h2></div>
+				</div>
+			</div>
+		</div>
+	</div>
+-->
+</body>
+</html>
